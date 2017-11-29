@@ -1,0 +1,32 @@
+{
+  "config": {
+    "sort-packages": true
+  },
+  "name": "pe/prestashop-ws",
+  "description": "PrestaShop webservice client library",
+  "keywords": ["prestashop", "webservice"],
+  "authors": [
+    {
+      "name": "Pavlenko Eugeniy",
+      "email": "pavlenko.obs@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "symfony/var-dumper": "^3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "PE\\Component\\PrestaShopWS\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PETest\\Component\\PrestaShopWS\\": "tests/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
